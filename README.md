@@ -1,50 +1,40 @@
-# learn-c-from-scratch
-My implementations and practice programs while learning C. From the book "Teach Yourself C by Herbert Schildt"
+# Learn C From Scratch
 
-# C Learning Journey
+This repository documents my hands-on journey of learning the C programming language through structured, chapter-wise exercises.
 
-This repository contains my implementations of exercises and practice problems while studying the C programming language.
+The focus is on building strong fundamentals in logic, memory, and low-level problem solving.
 
-The material is organized chapter-wise and reflects my progress in understanding core programming concepts, memory, and problem solving.
+## Structure
 
-## Repository Structure
-
-Each chapter folder contains example programs, exercise solutions, and skill-based implementations.
+The repository is organized according to chapters, each containing example programs and exercise solutions.
 
 ## Topics Covered
 
-- Fundamentals & syntax
-- Control flow
+- Basics & syntax
+- Control statements
 - Functions
 - Arrays & strings
 - Pointers
-- Structures
-- File handling
+- Structures & unions
+- File I/O
 
-(More topics will be added as I progress.)
+## How to Compile
 
-## How to Compile and Run
+Use GCC to compile any file:
 
-To compile any program:
-
-gcc filename.c -o output
-
-To run:
-
-./output
+gcc path/to/file.c -o output
 
 Example:
 
-gcc ch_5_1_exercise2.c -o ex
+gcc "Chapter 6 - Using Pointers/6.2/6.2ex2.c" -o ex
 ./ex
 
-## Goals of This Repository
+## Why this repository exists
 
-- Strengthen problem solving ability  
-- Build comfort with low-level programming  
-- Develop clean coding habits  
-- Track my learning publicly
+- Track my learning progress  
+- Practice writing clear and maintainable C code  
+- Strengthen core CS foundations
 
-## About Me
+## Author
 
-Computer science student interested in systems and core programming.
+Computer science undergraduate interested in systems and low-level programming.
